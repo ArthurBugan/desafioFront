@@ -1,0 +1,30 @@
+{
+  "name": "desafiofront",
+  "version": "1.0.0",
+  "description": "Criação de mini-app para teste para Desbravador Software LTDA",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=development webpack-dev-server --mode=development --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArthurBugan/desafioFront.git"
+  },
+  "keywords": [
+    "no-framework"
+  ],
+  "author": "Arthur Bugan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ArthurBugan/desafioFront/issues"
+  },
+  "homepage": "https://github.com/ArthurBugan/desafioFront#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.29.1",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
