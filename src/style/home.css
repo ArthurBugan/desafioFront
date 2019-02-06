@@ -1,0 +1,19 @@
+body * {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__input {
+    padding: .3rem;
+    height: 2rem;
+    border-radius: 15px;
+    width: 20vw;
+}

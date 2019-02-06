@@ -1,9 +1,12 @@
 import { route } from './router/index';
+import Home from './components/home';
+import './style/home.css';
 
 route('/', 'home', () => {
-   return `<div>Ola</div>`;
+    const home = Home.render();
+    return `${home}`;
 });
 
-route('/page1', 'template1',  () => {
+route('/usuario', 'template1',  () => {
     
 });

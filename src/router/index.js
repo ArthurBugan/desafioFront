@@ -23,7 +23,7 @@ function router() {
     // Verifica se existe a view da rota e a rota registrada
     if (el && route.controller) {
         // Renderiza a rota
-        el.innerHTML = route.controller() || <div></div>;
+        el.innerHTML = typeof route.controller !== 'undefined' ? route.controller() : '<div></div>';
     }
 }
 // Listen on hash change:
