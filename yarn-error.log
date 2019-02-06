@@ -1,0 +1,67 @@
+Arguments: 
+  /home/arthur/.nvm/versions/node/v10.15.0/bin/node /home/arthur/.nvm/versions/node/v10.15.0/bin/yarn install
+
+PATH: 
+  /home/arthur/.nvm/versions/node/v10.15.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  10.15.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@babel%2floader: Not found
+      at Request.params.callback [as _callback] (/home/arthur/.nvm/versions/node/v10.15.0/lib/node_modules/yarn/lib/cli.js:66255:18)
+      at Request.self.callback (/home/arthur/.nvm/versions/node/v10.15.0/lib/node_modules/yarn/lib/cli.js:129397:22)
+      at Request.emit (events.js:182:13)
+      at Request.<anonymous> (/home/arthur/.nvm/versions/node/v10.15.0/lib/node_modules/yarn/lib/cli.js:130369:10)
+      at Request.emit (events.js:182:13)
+      at IncomingMessage.<anonymous> (/home/arthur/.nvm/versions/node/v10.15.0/lib/node_modules/yarn/lib/cli.js:130291:12)
+      at Object.onceWrapper (events.js:273:13)
+      at IncomingMessage.emit (events.js:187:15)
+      at endReadableNT (_stream_readable.js:1094:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "desafiofront",
+    "version": "1.0.0",
+    "description": "Criação de mini-app para teste para Desbravador Software LTDA",
+    "main": "index.js",
+    "scripts": {
+      "start": "webpack-dev-server --mode=development --open --config config/webpack.config.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ArthurBugan/desafioFront.git"
+    },
+    "keywords": [
+      "no-framework"
+    ],
+    "author": "Arthur Bugan",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/ArthurBugan/desafioFront/issues"
+    },
+    "homepage": "https://github.com/ArthurBugan/desafioFront#readme",
+    "devDependencies": {
+      "@babel/cli": "^6.26.0",
+      "@babel/core": "^6.26.3",
+      "@babel/loader": "^8.0.5",
+      "babel-preset-env": "^1.7.0",
+      "webpack": "^4.29.1",
+      "webpack-cli": "^3.2.3",
+      "webpack-dev-server": "^3.1.14"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
